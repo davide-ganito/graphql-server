@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "@vas/graphql-server",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -13,11 +13,23 @@
   "license": "ISC",
   "dependencies": {
     "babel-runtime": "^5.6.20",
-    "debug": "^2.2.0"
+    "body-parser": "^1.14.1",
+    "connect-mongo": "^0.8.2",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "express-graphql": "^0.3.0",
+    "express-session": "^1.11.3",
+    "invariant": "^2.1.1",
+    "mongoose": "^4.0.7",
+    "multer": "^1.0.6",
+    "warning": "^2.1.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "longjohn": "^0.2.8",
     "source-map-support": "^0.3.2"
+  },
+  "peerDependencies": {
+    "graphql": "^0.4.7"
   }
 }
